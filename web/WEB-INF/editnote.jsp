@@ -17,10 +17,9 @@
         <div>
             <form action="note" method="POST">
                 <b>Title</b>:<input type="text" name="ntitle" value="${Note.title}"><br>
-                <b>Contents</b>:<textarea>hello</textarea><br>
+                <b>Contents</b>:<textarea name="tarea" >${Note.contents}</textarea><br>
                 <input type="submit" value="Save"><br>
             </form>
-            <a href="note?edit='true'">Edit</a>
         </div>
     </body>
 </html>
