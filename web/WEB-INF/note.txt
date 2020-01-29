@@ -1,2 +1,2 @@
-this is the title 
-content goes here
+Title goes here
+Content goes here

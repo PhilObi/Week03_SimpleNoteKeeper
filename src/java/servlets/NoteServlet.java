@@ -41,7 +41,7 @@ public class NoteServlet extends HttpServlet {
        
        // read Lines
        BufferedReader br = new BufferedReader(new FileReader(new File(path)));
-       for(int i = 0; i < 3; i++){
+       for(int i = 0; i < 2; i++){
             if(i == 0){
                 title = br.readLine();
             }else if(i == 1){
@@ -87,7 +87,7 @@ public class NoteServlet extends HttpServlet {
  
         // read Lines
         BufferedReader br = new BufferedReader(new FileReader(new File(path)));
-        for(int i = 0; i < 3; i++){
+        for(int i = 0; i < 2; i++){
             if(i == 0){
                 title = br.readLine();
             }else if(i == 1){
